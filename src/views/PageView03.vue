@@ -1,6 +1,11 @@
 <template>
-  <div class="page_2 cover">
-    <h1>{{ pageName }} УТТ (e-FAST)</h1>
+  <div class="cover">
+    <h2>{{ pageName }} Ултратовуш текшируви,  Extended focused assessment with sonography for trauma</h2>
+   <div class="main-content">
+    <div class="header">
+        <img src="../assets/Medik.webp" alt="" width="700">
+      </div>
+    </div>
     <div class="links">
       <RouterLink text="Мусбат" :to="positive" />
       <RouterLink text="Манфий" :to="negative" />

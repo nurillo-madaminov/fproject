@@ -1,6 +1,9 @@
 <template>
-  <div class="page_1 cover">
+  <div class="cover">
   <h1>Гемодинамик стабил</h1>
+  <div class="header">
+    <img src="../assets/Medik.webp" alt="" width="700">
+  </div>
   <div class="links">
     <RouterLink text="Кўкрак қафаси || Ултра товуш текшируви || Extended focused assessment with sonography for trauma" :to="{name: 'thirdPage'}" />
     <RouterLink text="Қорин бўшлиги || Ултра товуш текшируви || Extended focused assessment with sonography for trauma" :to="{name: 'fourthPage'}" />
@@ -17,8 +20,8 @@ export default {
 </script>
 
 <style>
-  .page_1 {
+  /* .page_1 {
     padding: 20px;
-    /* background-color:rgb(0, 222, 247); */
-  }
+    background-color:rgb(0, 222, 247);
+  } */
 </style>

@@ -65,17 +65,23 @@ button {
   width: 80%;
   margin: auto;
 }
+  .links {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  .cover {
+  padding: 20px;
+  border-radius: 10px;
+}
 
-/* button {
-  background-color: transparent;
-} */
-
-/* nav {
-  padding: 30px;
+nav {
+  border-radius: 20px;
+  background-color: lightblue;
 }
 
 
 nav a.router-link-exact-active {
   color: #42b983;
-} */
+}
 </style>

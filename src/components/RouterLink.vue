@@ -15,9 +15,9 @@ export default {
     color: #fff;
     width: 450px;
     padding: 10px 20px;
-    background-color: darkgoldenrod;
+    background-color: green;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 5px;
     letter-spacing: .5px;
     transition: 500ms;
