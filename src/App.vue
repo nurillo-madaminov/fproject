@@ -104,7 +104,6 @@ nav a.router-link-exact-active {
   }
   .links:not(nav .links) a {
     font-size: 16px;
-    background-color: red;
   }
   .header img {
     width: 70%;
