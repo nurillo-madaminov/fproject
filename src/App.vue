@@ -106,7 +106,8 @@ nav a.router-link-exact-active {
     font-size: 16px;
   }
   .header img {
-    width: 70%;
+    width: 85%;
+    margin-top: 30px;
   }
   h1:not(nav h1),h2 {
     font-size: 20px;
