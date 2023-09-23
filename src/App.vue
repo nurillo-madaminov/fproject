@@ -3,11 +3,11 @@
     <nav>
       <div class="links">
         <button @click="back">
-          <img src="./assets/caret-left.svg" alt="" width="11">
+          <img src="./assets/caret-left.svg" alt="" width="11" />
         </button>
 
         <router-link to="/">
-          <img src="./assets/house-solid.svg" alt="" width="15">
+          <img src="./assets/house-solid.svg" alt="" width="15" />
         </router-link>
       </div>
       <h1>Торакоабминал шикастланишларда жарроҳлик тактикаси</h1>
@@ -34,7 +34,11 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -57,31 +61,56 @@ button {
   border-radius: 50%;
   cursor: pointer;
   background-color: transparent;
-  aspect-ratio: 3/4;
-  object-fit: cover;
 }
 
 .container {
   width: 80%;
   margin: auto;
 }
-  .links {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-  }
-  .cover {
+.links {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.cover {
   padding: 20px;
   border-radius: 10px;
 }
 
 nav {
+  margin-top: 10px;
   border-radius: 20px;
+  padding: 20px 0;
   background-color: lightblue;
 }
 
-
 nav a.router-link-exact-active {
   color: #42b983;
+}
+.header img {
+  width: 60%;
+}
+@media screen and (max-width: 1200px) {
+  nav {
+    padding: 10px 0px;
+    flex-direction: column-reverse;
+    gap: 10px;
+    font-size: 16px;
+  }
+  .links:not(nav .links) {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .links:not(nav .links) a {
+    font-size: 16px;
+    background-color: red;
+  }
+  .header img {
+    width: 70%;
+  }
+  h1:not(nav h1),h2 {
+    font-size: 20px;
+  }
 }
 </style>

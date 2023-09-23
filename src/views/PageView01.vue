@@ -2,7 +2,7 @@
   <div class="cover">
   <h1>Гемодинамик стабил</h1>
   <div class="header">
-    <img src="../assets/Medik.webp" alt="" width="700">
+    <img src="../assets/Medik.webp" alt="">
   </div>
   <div class="links">
     <RouterLink text="Кўкрак қафаси || Ултра товуш текшируви || Extended focused assessment with sonography for trauma" :to="{name: 'thirdPage'}" />

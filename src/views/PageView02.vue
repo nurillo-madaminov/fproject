@@ -3,7 +3,7 @@
     <h1>Гемодинамик ностабил</h1>
     <div class="main_content">
     <div class="header">
-        <img src="../assets/Medik.webp" alt="" width="700">
+        <img src="../assets/Medik.webp" alt="">
       </div>
     </div>
     <div class="links">

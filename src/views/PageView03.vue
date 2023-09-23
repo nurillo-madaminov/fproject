@@ -3,7 +3,7 @@
     <h2>{{ pageName }} Ултратовуш текшируви,  Extended focused assessment with sonography for trauma</h2>
    <div class="main-content">
     <div class="header">
-        <img src="../assets/Medik.webp" alt="" width="700">
+        <img src="../assets/Medik.webp" alt="">
       </div>
     </div>
     <div class="links">
