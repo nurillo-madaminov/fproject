@@ -2,6 +2,9 @@
   <div class="cover">
     <h1>Гемодинамик ностабил</h1>
     <div class="main_content">
+    <div class="header">
+        <img src="../assets/Medik.webp" alt="" width="700">
+      </div>
     </div>
     <div class="links">
       <RouterLink text="Кўкрак бўшлиги || Ултра товуш текшируви || Extended focused assessment with sonography for trauma" :to="{name: 'fifthPage'}" />
