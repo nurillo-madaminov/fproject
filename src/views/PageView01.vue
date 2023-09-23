@@ -20,8 +20,4 @@ export default {
 </script>
 
 <style>
-  /* .page_1 {
-    padding: 20px;
-    background-color:rgb(0, 222, 247);
-  } */
 </style>
